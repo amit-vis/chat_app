@@ -21,7 +21,7 @@ export const ChatProvider = ({children})=>{
     const hour = date.getHours();
     const minutes = date.getMinutes();
 
-    const EndPoint = 'http://localhost:4000/';
+    const EndPoint = 'https://chat-app-0rjj.onrender.com/';
     const socket = useMemo(()=>socketIO(EndPoint),[]);
 
     const chatContainerRef = useRef(null);
