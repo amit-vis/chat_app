@@ -1,0 +1,255 @@
+.main-side-box{
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name-box{
+    display: flex;
+    height: 10vh;
+
+}
+
+.name-logo{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-text{
+    font-size: 1.8rem;
+    color: white;
+}
+.dot{
+    background-color: #b6e378;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 6%;
+    top: 11.5%;
+}
+
+.name-container{
+    left: 2%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-name{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.user-company{
+    color: #a5a5a6;
+}
+.second-text-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+    margin-left: 1%;
+    margin-right: 8%;
+}
+.conversation-text{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.circle-icon{
+    font-size: 2rem;
+    color: #a5a5a6;
+}
+.third-container{
+    margin-top: 2%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    color: #585864
+}
+.hash-container{
+    width: 8vh;
+    height: 8vh;
+    background-color: #edf1f5;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hash-text{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.company-name-text{
+    position: relative;
+    left: 5%;
+    font-weight: 1.2rem;
+    font-weight: 550;
+}
+.third-container:hover{
+    background-color: #629df4;
+    color: white;
+    padding: 2.5%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.third-container:hover .hash-container{
+    background-color: #6093e7;
+}
+
+/* reponsive site */
+@media (max-width: 1280px) {
+    .dot{
+        left: 7% !important;
+        top: 6.5% !important;
+    }
+    
+    
+}
+@media (max-width: 1368px) {
+    .main-side-box{
+        width: 32%;
+    }
+    .dot{
+        left: 9.5% !important;
+    }
+    .name-logo{
+        margin-top: 7%;
+    }
+    .hash-text{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+}
+@media (max-width: 1366px) {
+    .main-side-box{
+        width: 32%;
+    }
+    .dot{
+        left: 8%;
+        top: 6.5%;
+    }
+    .name-logo{
+        margin-top: 7%;
+    }
+    .hash-text{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+}
+@media (max-width: 1180px) {
+    .main-side-box{
+        width: 30%;
+    }
+    .dot{
+        left: 8.5%;
+        top: 6%;
+    }
+    
+}
+@media (max-width: 1024px) {
+    .main-side-box{
+        width: 30%;
+    }
+    .dot{
+        left: 11.5%;
+        top: 7%;
+    }
+    
+}
+@media (max-width: 720px) {
+   .main-side-box{
+        width: 40%;
+        margin-left: 2% !important;
+    }
+    .name-logo{
+        width: 2rem;
+        height: 2rem;
+        margin-top: 5%;
+    }
+    .logo-text{
+        font-size: 1rem;
+    }
+    .dot{
+        left: 4.8% !important;
+        top: 6%;
+    }
+    .user-company{
+        font-size: 1rem;
+    }
+    .user-name{
+        font-size: 1rem;
+    }
+    .conversation-text{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    .circle-icon{
+        font-size: 1.1rem;
+    }
+    .hash-container{
+        height: 2rem;
+        width: 2rem;
+    }
+    .hash-text{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .company-name-text{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 667px) {
+   
+    .main-side-box{
+        width: 40%;
+        margin-left: 0px;
+    }
+    .name-logo{
+        width: 2rem;
+        height: 2rem;
+        margin-top: 5%;
+    }
+    .logo-text{
+        font-size: 1rem;
+    }
+    .dot{
+        width: 8px;
+        height: 8px;
+        left: 6.2%;
+        top: 6%;
+    }
+    .user-company{
+        font-size: 1rem;
+    }
+    .user-name{
+        font-size: 1rem;
+    }
+    .conversation-text{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    .circle-icon{
+        font-size: 1.1rem;
+    }
+    .hash-container{
+        height: 2rem;
+        width: 2rem;
+    }
+    .hash-text{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .company-name-text{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+}
+
